@@ -85,41 +85,50 @@ NutriFit is proposed as a hybrid mobile application that integrates nutrition pl
 **The proposed UI mock-ups includes:**
 
 **1. Splash Screen & Login/Register Screen**
-
+<p align="center">
 <img width="200" height="812" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" /> 
 <img width="200" height="812" alt="Login Page" src="https://github.com/user-attachments/assets/7305a95f-71e5-49fe-a235-ff79beb6451b" />
 <img width="200" height="812" alt="Register Page - 1" src="https://github.com/user-attachments/assets/deeafdeb-d40f-4228-967b-f73d55c4c2e1" />
+</p>
 
 **2. User Onboarding & Goal Setup Screen**
-
+<p align="center">
 <img width="200" height="812" alt="&#39; (1)" src="https://github.com/user-attachments/assets/10550188-8e4f-49bb-abf9-9511d1e9cd06" />
 <img width="200" height="812" alt="&#39;" src="https://github.com/user-attachments/assets/3df16cd0-7cca-441d-8a98-7c9456d1f17a" />
+</p>
 
 **3. Home Dashboard (Calories & Workout Summary)**
-
+<p align="center">
 <img width="200" height="812" alt="Home" src="https://github.com/user-attachments/assets/7115712f-3198-4f0f-9ce3-bb589e9fe5cf" />
+</p>
 
 **4. Meal Plan & Meal Details Screen**
-
+<p align="center">
 <img width="183" height="812" alt="Meal Planner" src="https://github.com/user-attachments/assets/60ff20a2-9db1-4b35-94b5-6010e696cbe7" />
 <img width="200" height="812" alt="Category Breakfast" src="https://github.com/user-attachments/assets/9daa2488-b864-4207-ac08-f1c09f308f11" />
-
+</p>
 
 **5. Add Meal Log Screen** </br>
+<p align="center">
 <img width="200" height="812" alt="Meal Details" src="https://github.com/user-attachments/assets/c240355e-0636-4d7f-adc8-74042dfc832e" />
-
+</p>
 
 **6. Workout Plan & Workout Details Screen** </br>
+<p align="center">
 <img width="200" height="812" alt="Workout Tracker" src="https://github.com/user-attachments/assets/aad28384-3d75-422d-98e6-da5699765a57" />
 <img width="200" height="628" alt="Workout Details 2" src="https://github.com/user-attachments/assets/de95e218-f0ca-4604-855b-6150456704bd" />
+</p>
 
 **7. Progress Tracking Screen** </br>
+<p align="center">
 <img width="200" height="812" alt="Progress Photo" src="https://github.com/user-attachments/assets/8ddb2187-0fc9-4d39-8dd7-060986474220" />
 <img width="200" height="812" alt="image" src="https://github.com/user-attachments/assets/2700269f-4b43-4708-98db-cdde263ac6b1" />
+</p>
 
 **8. Profile Settings Screen** </br>
+<p align="center">
 <img width="200" height="812" alt="image" src="https://github.com/user-attachments/assets/df363717-2d2f-4131-8812-76a66c6b8f70" />
-
+</p>
 
 ## 6.0 Architecture / Technical Design
 
@@ -212,3 +221,59 @@ The application integrates Firebase services to support backend functionality:
 
 ## 9.0 Flowchart/Sequence Diagram
 ### 9.1 Flowchart
+
+
+
+### 9.2 Sequence Diagram
+
+<p align="center">
+<img width="256" height="195" alt="image" src="https://github.com/user-attachments/assets/8ddf601b-7c92-4220-9220-49b489008771" /> </br>
+</p>
+
+<p align="center"> Figure 9.2.1 User Login Sequence</p>
+The diagram illustrates the authentication process. It starts when the User enters their email and password. The App sends these credentials to Firebase Auth for verification. Once verified, the App fetches the user's profile and grants access by displaying the Home Screen.
+
+<p align="center">
+<img width="256" height="195" alt="image" src="https://github.com/user-attachments/assets/17973347-141d-4491-8b34-baeaf557178c" /></br>
+</p>
+
+<p align="center"> Figure 9.2.2 Meal Logging Sequence</p>
+This sequence shows how a user records a new meal. The User initiates the "Add Meal" action. The App handles two backend operations: it uploads any meal images to Firebase Storage and then saves the meal details and updates the total calorie count in the Firestore database.
+
+<p align="center">
+<img width="267" height="214" alt="image" src="https://github.com/user-attachments/assets/6aa94077-1974-4317-b6b9-14a86b7c0f51" /></br>
+</p>
+
+<p align="center"> Figure 9.2.3 Workout Logging Sequence</p>
+This diagram depicts the flow for tracking exercise. The User selects a workout and marks it as complete. The App then communicates with Firestore to save the specific workout log and update the user's overall progress records.
+
+<p align="center">
+<img width="272" height="202" alt="image" src="https://github.com/user-attachments/assets/0dfcd297-db5a-4287-9749-4b8c8ce63372" /></br>
+</p>
+
+<p align="center">Figure 9.2.4 View Progress Sequence</p>
+This sequence details how the app retrieves and displays data. When the User opens the progress screen, the App queries Firestore for past logs. Firestore returns the requested data, which the App then processes to display visual charts to the User.
+
+## 10.0 Shariah-Compliant and Ethical Considerations
+
+NutriFit is designed in accordance with Shariah-compliant and ethical development principles:
+- All meal recommendations and content are halal-friendly
+- The application avoids body-shaming language and promotes healthy lifestyle balance
+- No inappropriate imagery, advertisements, or misleading content
+- The application does not provide medical diagnosis and serves only as a lifestyle support tool
+- User data privacy and consent are respected at all times
+
+
+## 11.0 Scope and Limitations
+### 11.1 Project Scope
+- User authentication and profile management
+- Meal and workout logging system
+- Progress dashboard with visual summaries
+- Firestore-based data storage and retrieval
+
+### 11.2 Limitations
+- The application does not replace professional medical or dietary advice
+- Advanced features such as AI-based meal recommendations are not included in the initial version
+- Notification features may be limited based on implementation time
+
+## References
