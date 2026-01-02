@@ -86,39 +86,39 @@ NutriFit is proposed as a hybrid mobile application that integrates nutrition pl
 
 **1. Splash Screen & Login/Register Screen**
 
-<img width="375" height="3248" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" />
-<img width="375" height="812" alt="Login Page" src="https://github.com/user-attachments/assets/7305a95f-71e5-49fe-a235-ff79beb6451b" />
-<img width="375" height="812" alt="Register Page - 1" src="https://github.com/user-attachments/assets/deeafdeb-d40f-4228-967b-f73d55c4c2e1" />
+<img width="200" height="812" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" /> 
+<img width="200" height="812" alt="Login Page" src="https://github.com/user-attachments/assets/7305a95f-71e5-49fe-a235-ff79beb6451b" />
+<img width="200" height="812" alt="Register Page - 1" src="https://github.com/user-attachments/assets/deeafdeb-d40f-4228-967b-f73d55c4c2e1" />
 
 **2. User Onboarding & Goal Setup Screen**
 
-<img width="375" height="3248" alt="&#39; (1)" src="https://github.com/user-attachments/assets/10550188-8e4f-49bb-abf9-9511d1e9cd06" />
-<img width="375" height="3248" alt="&#39;" src="https://github.com/user-attachments/assets/3df16cd0-7cca-441d-8a98-7c9456d1f17a" />
+<img width="200" height="812" alt="&#39; (1)" src="https://github.com/user-attachments/assets/10550188-8e4f-49bb-abf9-9511d1e9cd06" />
+<img width="200" height="812" alt="&#39;" src="https://github.com/user-attachments/assets/3df16cd0-7cca-441d-8a98-7c9456d1f17a" />
 
 **3. Home Dashboard (Calories & Workout Summary)**
 
-<img width="375" height="6108" alt="Home" src="https://github.com/user-attachments/assets/7115712f-3198-4f0f-9ce3-bb589e9fe5cf" />
+<img width="200" height="812" alt="Home" src="https://github.com/user-attachments/assets/7115712f-3198-4f0f-9ce3-bb589e9fe5cf" />
 
 **4. Meal Plan & Meal Details Screen**
 
-<img width="375" height="3860" alt="Meal Planner" src="https://github.com/user-attachments/assets/60ff20a2-9db1-4b35-94b5-6010e696cbe7" />
-<img width="375" height="3516" alt="Category Breakfast" src="https://github.com/user-attachments/assets/9daa2488-b864-4207-ac08-f1c09f308f11" />
+<img width="183" height="812" alt="Meal Planner" src="https://github.com/user-attachments/assets/60ff20a2-9db1-4b35-94b5-6010e696cbe7" />
+<img width="200" height="812" alt="Category Breakfast" src="https://github.com/user-attachments/assets/9daa2488-b864-4207-ac08-f1c09f308f11" />
 
 
-**5. Add Meal Log Screen**
-<img width="375" height="5252" alt="Meal Details" src="https://github.com/user-attachments/assets/c240355e-0636-4d7f-adc8-74042dfc832e" />
+**5. Add Meal Log Screen** </br>
+<img width="200" height="812" alt="Meal Details" src="https://github.com/user-attachments/assets/c240355e-0636-4d7f-adc8-74042dfc832e" />
 
 
-**6. Workout Plan & Workout Details Screen**
-<img width="375" height="4700" alt="Workout Tracker" src="https://github.com/user-attachments/assets/aad28384-3d75-422d-98e6-da5699765a57" />
-<img width="1500" height="5048" alt="Workout Details 2" src="https://github.com/user-attachments/assets/de95e218-f0ca-4604-855b-6150456704bd" />
+**6. Workout Plan & Workout Details Screen** </br>
+<img width="200" height="812" alt="Workout Tracker" src="https://github.com/user-attachments/assets/aad28384-3d75-422d-98e6-da5699765a57" />
+<img width="200" height="628" alt="Workout Details 2" src="https://github.com/user-attachments/assets/de95e218-f0ca-4604-855b-6150456704bd" />
 
-**7. Progress Tracking Screen**
-<img width="375" height="2840" alt="Progress Photo" src="https://github.com/user-attachments/assets/8ddb2187-0fc9-4d39-8dd7-060986474220" />
-<img width="375" height="1600" alt="image" src="https://github.com/user-attachments/assets/2700269f-4b43-4708-98db-cdde263ac6b1" />
+**7. Progress Tracking Screen** </br>
+<img width="200" height="812" alt="Progress Photo" src="https://github.com/user-attachments/assets/8ddb2187-0fc9-4d39-8dd7-060986474220" />
+<img width="200" height="812" alt="image" src="https://github.com/user-attachments/assets/2700269f-4b43-4708-98db-cdde263ac6b1" />
 
-**8. Profile Settings Screen**
-<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/df363717-2d2f-4131-8812-76a66c6b8f70" />
+**8. Profile Settings Screen** </br>
+<img width="200" height="812" alt="image" src="https://github.com/user-attachments/assets/df363717-2d2f-4131-8812-76a66c6b8f70" />
 
 
 ## 6.0 Architecture / Technical Design
@@ -154,9 +154,61 @@ NutriFit is developed as a hybrid mobile application using Flutter, following a 
 This approach ensures clean and maintainable navigation flow.
 
 ### 6.4 State Management Approach
+The Provider package is used as the primary state management solution. It enables efficient data sharing and UI updates without unnecessary rebuilds.
+
+**Implemented providers include:**
+- AuthProvider – Manages authentication state
+- MealProvider – Handles meal data and meal logging
+- WorkoutProvider – Handles workout plans and workout logs
+- ProgressProvider – Manages user progress and analytics
+
+### 7.0 Firebase Integration
+
+The application integrates Firebase services to support backend functionality:
+
+1. Firebase Authentication:
+   - Email and password login and registration
+   - Secure user authentication
+2. Cloud Firestore:
+   - Storage of user profile data
+   - Storage of meal logs, workout logs, and progress records
+3. Firebase Storage:
+   - Optional upload and storage of meal images
+   - Firebase Cloud Messaging (Optional / Stretch Feature):
+4. Push notifications for meal and workout reminders
 
 
+## 8.0 Data Model Design
 
+### 8.1 Firestore Collections and Documents
 
+**Users Collection (users/{userId})**
+- name : String
+- age : int
+- heightCm : double
+- weightKg : double
+- goal : String
+- calorieTarget : int
+- createdAt : Timestamp
 
+**Meal Logs Subcollection (users/{userId}/mealLogs/{logId})**
+- date : Timestamp
+- mealName : String
+- mealType : String
+- calories : int
+- photoUrl : String
 
+**Workout Logs Subcollection (users/{userId}/workoutLogs/{logId})**
+- date : Timestamp
+- workoutName : String
+- durationMinutes : int
+- difficulty : String
+
+### 8.2 Data Relationships
+
+- One user can have multiple meal logs, workout logs, and weight logs
+- Logs are stored as subcollections under each user document
+- This structure ensures scalability and data security
+
+## 9.0 Flowchart/Sequence Diagram
+### 9.1 Flowchart
