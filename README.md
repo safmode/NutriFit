@@ -86,23 +86,39 @@ NutriFit is proposed as a hybrid mobile application that integrates nutrition pl
 
 **1. Splash Screen & Login/Register Screen**
 
-<img width="1500" height="3248" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" />
+<img width="375" height="3248" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" />
 <img width="375" height="812" alt="Login Page" src="https://github.com/user-attachments/assets/7305a95f-71e5-49fe-a235-ff79beb6451b" />
 <img width="375" height="812" alt="Register Page - 1" src="https://github.com/user-attachments/assets/deeafdeb-d40f-4228-967b-f73d55c4c2e1" />
 
 **2. User Onboarding & Goal Setup Screen**
 
+<img width="375" height="3248" alt="&#39; (1)" src="https://github.com/user-attachments/assets/10550188-8e4f-49bb-abf9-9511d1e9cd06" />
+<img width="375" height="3248" alt="&#39;" src="https://github.com/user-attachments/assets/3df16cd0-7cca-441d-8a98-7c9456d1f17a" />
+
 **3. Home Dashboard (Calories & Workout Summary)**
+
+<img width="375" height="6108" alt="Home" src="https://github.com/user-attachments/assets/7115712f-3198-4f0f-9ce3-bb589e9fe5cf" />
 
 **4. Meal Plan & Meal Details Screen**
 
+<img width="375" height="3860" alt="Meal Planner" src="https://github.com/user-attachments/assets/60ff20a2-9db1-4b35-94b5-6010e696cbe7" />
+<img width="375" height="3516" alt="Category Breakfast" src="https://github.com/user-attachments/assets/9daa2488-b864-4207-ac08-f1c09f308f11" />
+
+
 **5. Add Meal Log Screen**
+<img width="375" height="5252" alt="Meal Details" src="https://github.com/user-attachments/assets/c240355e-0636-4d7f-adc8-74042dfc832e" />
+
 
 **6. Workout Plan & Workout Details Screen**
+<img width="375" height="4700" alt="Workout Tracker" src="https://github.com/user-attachments/assets/aad28384-3d75-422d-98e6-da5699765a57" />
+<img width="1500" height="5048" alt="Workout Details 2" src="https://github.com/user-attachments/assets/de95e218-f0ca-4604-855b-6150456704bd" />
 
 **7. Progress Tracking Screen**
+<img width="375" height="2840" alt="Progress Photo" src="https://github.com/user-attachments/assets/8ddb2187-0fc9-4d39-8dd7-060986474220" />
+<img width="375" height="1600" alt="image" src="https://github.com/user-attachments/assets/2700269f-4b43-4708-98db-cdde263ac6b1" />
 
 **8. Profile Settings Screen**
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/df363717-2d2f-4131-8812-76a66c6b8f70" />
 
 
 ## 6.0 Architecture / Technical Design
@@ -114,6 +130,33 @@ NutriFit is developed as a hybrid mobile application using Flutter, following a 
 ### 6.2 Widget and Folder Structure
 
 **The project follows a structured folder organisation:**
+- main.dart – Application entry point
+- screens/ – UI screens (authentication, dashboard, meals, workouts, profile)
+- widgets/ – Reusable UI components such as cards, buttons, and form fields
+- models/ – Data models representing users, meals, workouts, and logs
+- providers/ – State management logic using Provider
+- services/ – Firebase authentication, Firestore database, and storage services
+- utils/ – Application constants, theme configurations, and helper functions
+
+### 6.3 Navigation and Routing
+**The application uses named routes to manage navigation between screens. Key routes include:**
+- /login
+- /register
+- /onboarding
+- /home
+- /meals
+- /addMeal
+- /workouts
+- /addWorkout
+- /progress
+- /profile
+
+This approach ensures clean and maintainable navigation flow.
+
+### 6.4 State Management Approach
+
+
+
 
 
 
