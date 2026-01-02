@@ -277,3 +277,7 @@ NutriFit is designed in accordance with Shariah-compliant and ethical developmen
 - Notification features may be limited based on implementation time
 
 ## References
+Flutter. (2024). Flutter documentation. https://docs.flutter.dev </br>
+Flutter Team. (2024). Managing state with Provider. https://docs.flutter.dev/data-and-backend/state-mgmt/simple</br>
+Google. (2024). Firebase documentation. https://firebase.google.com/docs</br>
+Figma. (2024). Figma design platform. https://www.figma.com</br>
