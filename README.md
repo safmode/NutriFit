@@ -231,28 +231,28 @@ The application integrates Firebase services to support backend functionality:
 </p>
 
 <p align="center"> Figure 9.2.1 User Login Sequence</p>
-The diagram illustrates the authentication process. It starts when the User enters their email and password. The App sends these credentials to Firebase Auth for verification. Once verified, the App fetches the user's profile and grants access by displaying the Home Screen.
+The diagram illustrates the authentication process. It starts when the User enters their email and password. The App sends these credentials to Firebase Auth for verification. Once verified, the App fetches the user's profile and grants access by displaying the Home Screen. </br>
 
 <p align="center">
 <img width="256" height="195" alt="image" src="https://github.com/user-attachments/assets/17973347-141d-4491-8b34-baeaf557178c" /></br>
 </p>
 
 <p align="center"> Figure 9.2.2 Meal Logging Sequence</p>
-This sequence shows how a user records a new meal. The User initiates the "Add Meal" action. The App handles two backend operations: it uploads any meal images to Firebase Storage and then saves the meal details and updates the total calorie count in the Firestore database.
+This sequence shows how a user records a new meal. The User initiates the "Add Meal" action. The App handles two backend operations: it uploads any meal images to Firebase Storage and then saves the meal details and updates the total calorie count in the Firestore database.</br>
 
 <p align="center">
 <img width="267" height="214" alt="image" src="https://github.com/user-attachments/assets/6aa94077-1974-4317-b6b9-14a86b7c0f51" /></br>
 </p>
 
 <p align="center"> Figure 9.2.3 Workout Logging Sequence</p>
-This diagram depicts the flow for tracking exercise. The User selects a workout and marks it as complete. The App then communicates with Firestore to save the specific workout log and update the user's overall progress records.
+This diagram depicts the flow for tracking exercise. The User selects a workout and marks it as complete. The App then communicates with Firestore to save the specific workout log and update the user's overall progress records.</br>
 
 <p align="center">
 <img width="272" height="202" alt="image" src="https://github.com/user-attachments/assets/0dfcd297-db5a-4287-9749-4b8c8ce63372" /></br>
 </p>
 
 <p align="center">Figure 9.2.4 View Progress Sequence</p>
-This sequence details how the app retrieves and displays data. When the User opens the progress screen, the App queries Firestore for past logs. Firestore returns the requested data, which the App then processes to display visual charts to the User.
+This sequence details how the app retrieves and displays data. When the User opens the progress screen, the App queries Firestore for past logs. Firestore returns the requested data, which the App then processes to display visual charts to the User.</br>
 
 ## 10.0 Shariah-Compliant and Ethical Considerations
 
