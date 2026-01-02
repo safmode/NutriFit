@@ -86,6 +86,10 @@ NutriFit is proposed as a hybrid mobile application that integrates nutrition pl
 
 **1. Splash Screen & Login/Register Screen**
 
+<img width="1500" height="3248" alt="Welcome Screen - 1" src="https://github.com/user-attachments/assets/1b4bc286-d4f2-4f8f-89a2-96115bdb0af6" />
+<img width="375" height="812" alt="Login Page" src="https://github.com/user-attachments/assets/7305a95f-71e5-49fe-a235-ff79beb6451b" />
+<img width="375" height="812" alt="Register Page - 1" src="https://github.com/user-attachments/assets/deeafdeb-d40f-4228-967b-f73d55c4c2e1" />
+
 **2. User Onboarding & Goal Setup Screen**
 
 **3. Home Dashboard (Calories & Workout Summary)**
