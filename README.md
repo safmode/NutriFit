@@ -222,7 +222,7 @@ The application integrates Firebase services to support backend functionality:
 ## 9.0 Flowchart/Sequence Diagram
 ### 9.1 Flowchart
 
-<img width="1079" height="1111" alt="MOBILE APP DEV-flowchart drawio" src="https://github.com/user-attachments/assets/a8b327dd-94f0-4a24-9b2b-340e046fddae" />
+<img width="1079" height="1111" alt="MOBILE APP DEV-flowchart drawio (1)" src="https://github.com/user-attachments/assets/bb81bc0c-3d6b-483d-96e5-54c6ff4f422d" />
 
 
 ### 9.2 Sequence Diagram
