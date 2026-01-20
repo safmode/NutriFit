@@ -279,7 +279,44 @@ NutriFit is designed in accordance with Shariah-compliant and ethical developmen
 
 ### 12.0 Final UI Screenshots
 
+**1. Splash Screen & Login/Register Screen**
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/7f18ec59-9442-4db7-a512-dc13feb72ce7" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/310bec41-fa2e-4f37-9df9-43706cd87ac4" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/65dfca0c-52e3-4534-b54f-8bccc0672c47" />
 
+**2. User Onboarding & Goal Setup Screen**
+
+
+**3. Home Dashboard**
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/f7ce7e35-3b49-46fb-850e-6585e5db3969" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/7bbb0961-7a75-4161-bf4c-ed34faa1c133" />
+
+
+**4. Meal Plan & Meal Details Screen**
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/b03ba9d6-5e3e-4d5e-b15b-508a5f50b6ad" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/aae4ecf1-01f5-466f-af4b-616a53323f35" />
+
+
+**5. Add Meal Log Screen** </br>
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/cf017436-4c78-4867-b734-d3c1623c9cc4" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/2c77a056-4fd1-4bbd-9b2c-04ae0eea38ff" />
+
+
+**6. Workout Plan & Workout Details Screen** </br>
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/d576f8fb-9498-4f97-b94b-3730e4af5092" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/56e96282-756a-4f46-b68d-6d67bcdad4d7" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/0be41c81-2afe-4224-89f8-4fc908aad57d" />
+
+
+**7. Progress Tracking Screen** </br>
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/7274da19-0537-4054-ab90-b1921ec4fb92" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/bd01e388-9e57-447d-bbdc-722c4f571167" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/6e7a9955-3288-4933-8f13-eb52229ca660" />
+
+
+**8. Profile Settings Screen** </br>
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/3eaf4c1c-dc50-48a7-9303-58526c8a3073" />
+<img width="311" height="709" alt="image" src="https://github.com/user-attachments/assets/d96dc324-311a-4ef7-84d6-417003b81c99" />
 
 ### 13.0 Summary of achieved features
 NutriFit successfully implements a comprehensive halal-compliant nutrition and fitness tracking system with the following core features:Authentication & User Management
