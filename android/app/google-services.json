@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243673817844",
+    "project_id": "nutrifit-a400b",
+    "storage_bucket": "nutrifit-a400b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243673817844:android:1c02c8666827136c57f4a1",
+        "android_client_info": {
+          "package_name": "com.example.fitnessworkout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpD6UhpxrhfKFhOlTA0pNQ8ugq-C8nRi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
